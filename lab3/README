@@ -21,9 +21,12 @@ questionB:
     v1/v2 are the diffierent.
     insertion_sort(): 128.11 seconds
     v1/v2 are the same.
-
-  size=1000000:
     
+  size=1000000:
+    sort():0.52seconds
+    v1/v2 are the diffierent.
+    insertion_sort(): 12814.5 seconds
+    v1/v2 are the same.
     
   expalnation:
     In this case, it says
