@@ -1,0 +1,34 @@
+questionA:
+  g++ -c main.cpp
+  g++ -c lab3_A.cpp
+  g++ -c lab3 lab3_A.o main.o
+  
+questionB:
+  size=1000:
+    sort():0seconds
+    v1/v2 are the diffierent.
+    insertion_sort(): 0.01 seconds
+    v1/v2 are the same.
+
+  size=10000:
+    sort():0seconds
+    v1/v2 are the diffierent.
+    insertion_sort(): 1.28 seconds
+    v1/v2 are the same.
+
+  size=100000:
+    sort():0.04seconds
+    v1/v2 are the diffierent.
+    insertion_sort(): 128.11 seconds
+    v1/v2 are the same.
+
+  size=1000000:
+    
+    
+  expalnation:
+    In this case, it says
+         n log(n)
+    lim --------- = 0
+          n^2
+    That means n^2 grows faster, so n log(n) is smaller (better), when n is high enough.
+    (當平面圖愈接近y=n,速度愈快,因此當n<100時,n^2的速度>nlogn,n>100時,n^2的速度遠小於nlogn)
